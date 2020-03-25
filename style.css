@@ -1,0 +1,95 @@
+body {
+    background-color: whitesmoke;
+    font-family: monospace;
+    letter-spacing: 0.1 em;
+    color: rgb(23, 23, 23);
+}
+
+p {
+    font-size: 21px;
+    font-weight: 500;
+    text-align: left;
+
+}
+
+.container {
+    margin: 8px;
+}
+
+.nav-menu {
+    display: block;
+    position: fixed;
+    top: 80px;
+    left: 100px;
+    line-height: 35px;
+    height: 780px;
+    width: 280px;
+    border-right: 1px solid lightgray;
+}
+
+.nav-menu li {
+    font-size: 25px;
+    font-weight: bold;
+    list-style: none;
+    text-decoration: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: rgb(32, 155, 69);
+}
+
+#current {
+    color: rgb(32, 155, 69);
+}
+
+.breed-description {
+    display: block;
+    margin-left: 380px;
+    margin-top: 100px;
+    width: 700px;
+}
+
+.breed-description img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 280px;
+    height: auto;
+    border-radius: 50%;
+    border: 3px solid rgb(160, 160, 160);
+}
+
+.breed-description h1 {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+
+.breed-description li {
+    font-size: 21px;
+    color: rgb(23, 23, 23);
+    list-style: none;
+    margin-left: -39px;
+    line-height: 40px;
+}
+
+.weight {
+    padding-right: 40px;
+}
+
+.coat {
+    padding-right: 61px;
+}
+
+.color {
+    padding-right: 53px;
+}
+
+.breed-details {
+    margin-top: 50px;
+}
